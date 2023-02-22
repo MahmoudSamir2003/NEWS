@@ -7,7 +7,7 @@ input.addEventListener("change", function () {
 });
 function displayPost() {
   let row = "";
-  for (let a = 0; a <= posts.length; a++) {
+  for (let a = 0; a <= posts?.length; a++) {
     row += `<div class="col-md-4">
                   <img src="${
                     posts[a]?.urlToImage
